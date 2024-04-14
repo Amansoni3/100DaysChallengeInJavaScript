@@ -14,6 +14,10 @@
 const countChar = (str , word) => {
     word = word.toLowerCase()
     str = str.toLowerCase()
+    
+    // let m = str
+    
+    // console.log(m.split(''))
 
     totalCount = str.split("").reduce((acc , currVal) => {
         if (currVal === word){

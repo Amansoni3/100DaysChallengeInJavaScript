@@ -20,6 +20,7 @@ const generateHash = (str) => {
         currVal.charAt(0).toUpperCase() + currVal.slice(1)
         // currVal.replace(currVal[0], currVal[0].toUpperCase())
     )
+    
     string = string.join("")
     string = `#${string}`
     return string
