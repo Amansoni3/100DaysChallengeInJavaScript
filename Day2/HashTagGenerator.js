@@ -15,7 +15,7 @@ const generateHash = (str) => {
     }
 
    let string = str.split(" ")
-
+    console.log(string)
     string = string.map((currVal) =>
         currVal.charAt(0).toUpperCase() + currVal.slice(1)
         // currVal.replace(currVal[0], currVal[0].toUpperCase())
