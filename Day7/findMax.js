@@ -1,6 +1,7 @@
 // write a function findMax that takes an array of numbers as input and returns maximum number in array
 
 const findMax = (arr) => {
+    console.log(...arr , "n")
     return Math.max(...arr)
 }
 
